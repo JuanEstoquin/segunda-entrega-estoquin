@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy-Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1 class="titulo">Easy-Calculator</h1>
+    <div class="div">
+        <label class="text" for="num1">Coloca un número</label>
+        <input type="text" id="num1">
+    </div>
+    <div class="div">
+        <label class="text" for="num2">Coloca otro número</label>
+        <input type="text" id="num2">
+    </div>
+    <div class="div">
+        <button onclick="sumar()">Súmalos</button>
+        <button onclick="restar()">Restalos</button>
+        <button onclick="multiplicar()">Multiplicalos</button>
+        <button onclick="dividir()">Dividelos</button>
+        <button onclick="porcentaje()">Saca su porcentaje</button>
+        <button onclick="concatenar()">Concatenalos</button>
+    </div>
+    <div id="resultado"></div>
+    <script src="main.js"></script>
+</body>
+
+</html>
